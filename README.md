@@ -4,4 +4,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-![Workflow Node](GrigorySadovskiyxyz/backend-project-lvl1/Super-Linter/badge.svg)
+[![Node CI](https://github.com/GrigorySadovskiyxyz/backend-project-lvl1/workflows/Super-Linter/badge.svg)](https://github.com/GrigorySadovskiyxyz/backend-project-lvl1/actions)
