@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
 import { createRequire } from 'module'; // Importing "require" for the readlineSync
