@@ -10,17 +10,19 @@ console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${userName}!\nWhat is the result of the expression?.`); // Instructions and name link
 
-const randomValue = function getRandomInt(value = 100) {
+function getRandomInt(value = 100) {
   return Math.ceil(Math.random() * value);
-}; // Making random number from 0 to 100
+} // Making random number from 0 to 100
 
 // const probabilityValue = Math.random(); // Making random math operand
-let result;
 let sign;
 
-const getStuff = function getRandomEquation(value = Math.random()) {
-  const leftOperand = randomValue();
-  const rightOperand = randomValue();
+function getRandomEquation() {
+  const leftOperand = getRandomInt();
+  const rightOperand = getRandomInt();
+  const value = Math.random();
+  let result;
+  let sign;
 
   switch (value) {
     case value < 0.33:
@@ -37,15 +39,15 @@ const getStuff = function getRandomEquation(value = Math.random()) {
       return result, sign;
     default:
       result = `${leftOperand} * ${rightOperand}`;
+      return result;
   }
-  return result;
-};
+}
 
 function brainCalc() {
   let counter = 0;
   let trueAnswer;
   do {
-    let initializeFunc = getStuff();
+    let initializeFunc = getRandomEquation();
     console.log(`Question: ${initializeFunc}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (Number(userAnswer) === sign) {
