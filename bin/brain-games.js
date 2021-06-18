@@ -3,7 +3,7 @@ import { userNameInfo } from '/Users/grigory/backend-project-lvl1/src/cli.js';
 
 console.log('Welcome to the Brain Games!');
 
-const userName = userNameInfo()
+const userName = userNameInfo();
 
 console.log(`Hello, ${userName}!`);
 
