@@ -6,4 +6,4 @@
 
 ### GitHub Actions
 
-[![GitHub Actions](https://github.com/GrigorySadovskiyxyz/backend-project-lvl1/actions/workflows/earn-github-actions/badge.svg)](https://github.com/GrigorySadovskiyxyz/backend-project-lvl1/actions)
+![GitHub Actions](https://github.com/GrigorySadovskiyxyz/backend-project-lvl1/actions/workflows/learn-github-actions/badge.svg)]
