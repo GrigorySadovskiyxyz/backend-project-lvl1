@@ -7,4 +7,4 @@ const userNameInfo = () => {
 	return userName;
 };
 
-export { userNameInfo } ;
+export { userNameInfo };
