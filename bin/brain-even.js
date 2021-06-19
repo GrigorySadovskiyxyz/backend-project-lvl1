@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
-import { readlineSync } from 'readlineSync'; 
+import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
@@ -20,8 +20,9 @@ const isTrue = function isEven(value) {
   return false;
 }; // Checking if the number is even (boolean)
 
+let counter = 0;
+
 const isEvenLogic = function checkUserAnswer() {
-  let counter = 0;
   let trueAnswer;
   do {
     const eachStepValue = randomValue();
@@ -47,3 +48,7 @@ const isEvenLogic = function checkUserAnswer() {
 }; // Logic of the game
 
 isEvenLogic(); // Initializing the game
+
+if (counter === 3) {
+    console.log(`Congratulations, ${userName}!`)
+}
