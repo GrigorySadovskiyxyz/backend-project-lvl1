@@ -11,5 +11,6 @@
 
 ### asciinema 
 
-[Gameplay brain-calc:](https://asciinema.org/a/RVsspQmw1qsgLBKZgmWSLuNLf)
-[Gameplay brain-gcd:](https://asciinema.org/a/HSxvamZTUNHA3Z4EDvbMvKsjc)
+[Gameplay brain-calc](https://asciinema.org/a/RVsspQmw1qsgLBKZgmWSLuNLf)
+
+[Gameplay brain-gcd](https://asciinema.org/a/HSxvamZTUNHA3Z4EDvbMvKsjc)
