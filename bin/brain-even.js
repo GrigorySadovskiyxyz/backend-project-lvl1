@@ -45,10 +45,9 @@ const isEvenLogic = function checkUserAnswer() {
       break;
     }
   } while (counter !== 3);
+  if (counter === 3) {
+    console.log(`Congratulations, ${userName}!`);
+  }
 }; // Logic of the game
 
 isEvenLogic(); // Initializing the game
-
-if (counter === 3) {
-    console.log(`Congratulations, ${userName}!`)
-}
