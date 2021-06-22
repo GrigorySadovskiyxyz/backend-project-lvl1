@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import userNameInfoGreeting from '/Users/grigory/backend-project-lvl1/src/cli.js';
+import userNameInfoGreeting from '../src/cli.js';
 
 const userName = userNameInfoGreeting();
 

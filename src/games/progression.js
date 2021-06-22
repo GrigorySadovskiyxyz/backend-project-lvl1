@@ -3,8 +3,8 @@
 /* eslint-disable comma-dangle */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '/Users/grigory/backend-project-lvl1/src/cli.js';
-import * as CONSTANTS from '/Users/grigory/backend-project-lvl1/src/index.js';
+import userNameInfoGreeting from '../src/cli.js';
+import * as CONSTANTS from '../src/index.js';
 
 const userName = userNameInfoGreeting();
 let counter = 0;
