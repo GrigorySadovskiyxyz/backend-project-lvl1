@@ -2,10 +2,11 @@
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
 /* eslint-disable radix */
+/* eslint-disable import/extensions */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '../cli';
-import * as CONSTANTS from '../index';
+import userNameInfoGreeting from '../cli.js';
+import * as CONSTANTS from '../index.js';
 
 // GDC calc online link: http://www.alcula.com/calculators/math/gcd/#gsc.tab=0
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-import brainEven from '../src/games/even';
+/* eslint-disable import/extensions */
+
+import brainEven from '../src/games/even.js';
 
 brainEven();

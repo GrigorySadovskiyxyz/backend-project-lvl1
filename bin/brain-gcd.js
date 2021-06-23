@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import brainGCD from '../src/games/gcd';
+/* eslint-disable import/extensions */
+import brainGCD from '../src/games/gcd.js';
 
 brainGCD();

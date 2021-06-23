@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
+/* eslint-disable import/extensions */
+
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');

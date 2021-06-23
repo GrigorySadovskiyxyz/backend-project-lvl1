@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-import brainPrime from '../src/games/prime';
+/* eslint-disable import/extensions */
+
+import brainPrime from '../src/games/prime.js';
 
 brainPrime();
