@@ -32,7 +32,7 @@ function brainProgression() {
     } else if (Number(userAnswer) !== initializeFunc[1]) {
       trueAnswer = `${initializeFunc[1]}`;
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}!`
       );
       break;
     }

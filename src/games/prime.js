@@ -41,7 +41,7 @@ function brainPrime() {
     } else {
       trueAnswer = initializeFunc ? 'yes' : 'no';
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}!`
       );
       break;
     }

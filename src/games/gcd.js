@@ -48,7 +48,7 @@ function brainGCD() {
     } else if (Number(userAnswer) !== gcd(firstVal, secondVal)) {
       trueAnswer = `${gcd(firstVal, secondVal)}`;
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}!`
       );
       break;
     }
