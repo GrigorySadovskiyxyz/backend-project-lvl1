@@ -31,7 +31,7 @@ function brainCalc() {
     } else if (Number(userAnswer) !== (eval(initializeFunc))) {
       trueAnswer = `${eval(initializeFunc)}`;
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.\nLet's try again, ${userName}!`
       );
       break;
     }
