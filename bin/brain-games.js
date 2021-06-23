@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import userNameInfoGreeting from '../src/cli.js';
+import userNameInfoGreeting from '../src/cli';
 
 const userName = userNameInfoGreeting();
 

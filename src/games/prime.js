@@ -1,10 +1,10 @@
-#!/usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
+/* eslint-disable no-param-reassign */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '../../src/cli.js';
-import * as CONSTANTS from '../../src/index.js';
+import userNameInfoGreeting from '../cli';
+import * as CONSTANTS from '../index';
 
 const userName = userNameInfoGreeting();
 let counter = 0;
@@ -15,10 +15,10 @@ console.log(
 
 function isPrime(num) {
   if (num <= 1) return false;
-  if (num == 2) return true;
+  if (num === 2) return true;
 
-  for (let i = 2; i <= num / 2; i++) {
-    if (num % i == 0) {
+  for (let i = 2; i <= num / 2; i += 1) {
+    if (num % i === 0) {
       return false;
     }
   }

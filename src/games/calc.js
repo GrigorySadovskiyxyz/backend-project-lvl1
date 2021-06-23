@@ -1,10 +1,10 @@
-#!/usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
+/* eslint-disable no-eval */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '../../src/cli.js';
-import * as CONSTANTS from '../../src/index.js';
+import userNameInfoGreeting from '../cli';
+import * as CONSTANTS from '../index';
 
 const userName = userNameInfoGreeting();
 let counter = 0;

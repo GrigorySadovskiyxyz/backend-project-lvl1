@@ -20,7 +20,7 @@ const randomArr = function getRandomArr() {
   let newVal = randomFirstValue + randomSizing;
   arr.push(randomFirstValue);
 
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 9; i += 1) {
     arr.push(newVal);
     newVal += randomSizing;
   }
