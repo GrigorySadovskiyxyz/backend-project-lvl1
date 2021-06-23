@@ -3,8 +3,8 @@
 /* eslint-disable comma-dangle */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '../src/cli.js';
-import * as CONSTANTS from '../src/index.js';
+import userNameInfoGreeting from '../../src/cli.js';
+import * as CONSTANTS from '../../src/index.js';
 
 // GDC calc online link: http://www.alcula.com/calculators/math/gcd/#gsc.tab=0
 

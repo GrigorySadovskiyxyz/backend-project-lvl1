@@ -3,8 +3,8 @@
 /* eslint-disable comma-dangle */
 
 import readlineSync from 'readline-sync';
-import userNameInfoGreeting from '../src/cli.js';
-import * as CONSTANTS from '../src/index.js';
+import userNameInfoGreeting from '../../src/cli.js';
+import * as CONSTANTS from '../../src/index.js';
 
 const userName = userNameInfoGreeting();
 let counter = 0;
