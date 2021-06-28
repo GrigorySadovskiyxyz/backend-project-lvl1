@@ -1,0 +1,49 @@
+
+
+// @ts-check
+/* eslint no-param-reassign: ["error", { "props": false }] */
+
+// BEGIN (write your solution here)
+
+ make = (url) => url;
+
+ toString = (url) => url.toString();
+
+setProtocol = (data, protocol) => {
+  let itemProtocol = getProtocol(data);
+  let chagedData = data.includes(protocol) ? data : data.replace(itemProtocol, protocol);
+  return chagedData;
+}
+
+getProtocol = (data) => data.split('/')[0];
+
+ setHost = (data, host) => {
+ let itemHost = getHost(data);
+  let changedHost = data.includes(host) ? data : data.replace(itemHost, host);
+  return changedData;
+}
+ 
+getHost = (data) => data.split('/')[2];
+
+ setPath = (data, path) => {
+ let itemPath = getPath(data);
+  let changedPath = data.includes(path) ? data : data.replace('/' + itemPath, path);
+  return changedPath;
+}
+
+ getPath = (data) => data.split('/')[3];
+
+ setQueryParam = (data, key, value) => {
+  let itemParam = getQueryParam(data, key);
+  let changedParam = data.replace(itemParam, )
+}
+
+ getQueryParam = (data, paramName, default = null) => {
+  return default = data.split(paramName)[1];
+}
+ 
+ 
+
+ export { make, toString, setProtocol, getProtocol, setHost, getHost, setPath, getPath, setQueryParam, getQueryParam }
+
+// END

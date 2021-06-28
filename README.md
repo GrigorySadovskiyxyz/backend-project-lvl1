@@ -34,7 +34,9 @@ $ brain-progression
 $ brain-prime
 ```
 
-Simple, yet existing project, written in JavaScript, operating in **CLI** ecosystem. Served as a npm package with support of **Eslin, Babel and Git**. This project greatly boosted my skills related to the JS modules, as well as understanding the logic behind the **npm** package setup.
+Simple, yet existing project, written in JavaScript, operating in **CLI** ecosystem. Served as a npm package with support of **Eslint, Babel and Git**. 
+
+This project greatly boosted my skills related to the JS modules, as well as understanding the logic behind the **npm** package setup.
 
 ### Recorded asciinema gameplay
 

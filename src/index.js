@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
+/* eslint-disable import/extensions */
 
 const randomValue = function getRandomInt(value = 100) {
   return Math.ceil(Math.random() * value);
