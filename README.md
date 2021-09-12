@@ -38,8 +38,15 @@ Simple, yet existing project, written in JavaScript, operating in **CLI** ecosys
 
 This project greatly boosted my skills related to the JS modules, as well as understanding the logic behind the **npm** package setup.
 
-### Recorded asciinema gameplay
+### Recorded asciinema demo gameplay
 
-[Gameplay brain-calc](https://asciinema.org/a/RVsspQmw1qsgLBKZgmWSLuNLf)
+[Even](https://asciinema.org/a/RVsspQmw1qsgLBKZgmWSLuNLf)
 
-[Gameplay brain-gcd](https://asciinema.org/a/HSxvamZTUNHA3Z4EDvbMvKsjc)
+[Calc](https://asciinema.org/a/BeFIAR6i76wNaYDiQm3R8VTtb)
+
+[Greatest Common Divisor](https://asciinema.org/a/HSxvamZTUNHA3Z4EDvbMvKsjc)
+
+[Progression](https://asciinema.org/a/9EKGBQXCSdlnH4WmZsIA5LRT9)
+
+[Prime](https://asciinema.org/a/0Sn9eod1ob0lppbVJJbyJnSxi)
+
